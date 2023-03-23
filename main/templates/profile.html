@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/upload.css' %}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    
+
+</head>
+
+
+<body>
+
+<div class="content-section">
+    <div class="media">
+      <img
+        class="rounded-circle account-img"
+        src="{{ file_url }}"
+      />
+      <div class="card">     
+      <div class="media-body">
+        <h2 class="account-heading">{{ user.username }}</h2>
+        <p class="text-secondary">{{ user.email }}</p>
+      </div>
+    </div>
+    <!-- FORM HERE -->
+  </div>
+</div>
+
+
+
+  
+</body>
+</html> 

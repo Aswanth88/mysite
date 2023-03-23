@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.mb-3{
+    width: 90%;
+
+
+
+}
+.card{
+    position: absolute;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    left: 30vh;
+    width:160vh;
+    height: 950px;
+    background-color: rgb(102, 100, 100);
+    margin-top:5vh;
+    color:white;
+    border-radius: 20px;
+     
+ }
+ 
+ .card1{
+     position: absolute;
+     color:#ffffff;
+     left: 40%;
+     height: 60px;
+     width:290px;
+     top: 75%;
+     text-align: center;
+     font-family: 'Poppins';
+     font-style:inherit;
+     font-weight: 10px;
+     margin-top: 20px;
+     font-size: 20px;
+     line-height: 25px;
+     background-color: rgb(102, 100, 100);
+     border-radius: 30px;
+     cursor: pointer;
+   }
+   
+   .card1:hover{
+       opacity: 5px;
+   }

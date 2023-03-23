@@ -1,0 +1,44 @@
+body {
+    background-color: #1A1A1C;
+  }
+
+  .card{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width:60vh;
+     background-color: rgb(102, 100, 100);
+     margin: auto;
+     margin-top:35vh;
+     margin-left: 79vh;
+     color:white;
+     border-radius: 25px;
+  }
+
+.nav{
+  position: absolute;
+  background-color: #66696A;
+  left:40px; 
+  top: 10px;
+  width: 95%;
+    height: 10%;
+    border-radius: 10px;
+  }
+
+  .new1 {
+    position: absolute;
+    background-color: #66696A;
+    left: 550px; 
+    top: 100px;
+    width: 20%;
+    height: 80px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 590;
+    font-size: 25px;
+    text-align: center ;
+    line-height: 35px;
+    border-radius: 25px; 
+    cursor: pointer;
+  }
+

@@ -1,0 +1,54 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/positive.css' %}">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+</head>
+
+<body>
+
+    <div class="nav" ><pre>                                                                                                                                                      <svg xmlns="http://www.w3.org/2000/svg" height="50" width="60" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/><path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+      </svg></pre>
+    </div>
+
+    <div class="new1">Perspective<br> 1</div>   
+    
+    <div class="card">
+      <div class="card-body">
+        <div class="container mt-5">
+   
+    
+      <form action="{% url 'positive' %}" method="POST" enctype="multipart/form-data">
+          
+          <div class="form-group">
+            <label for="{{form.file_name.id_for_label}}">File name</label>
+             {{form.file_name}}      
+          </div>
+          <div class="form-group">
+              <label for="{{form.files_data.id_for_label}}">File</label>
+             {{form.files_data}}         
+            </div>
+            {% csrf_token %}
+          <br><br>
+          
+          <button type="submit" class="btn btn-primary" href="http://127.0.0.1:8000/mainpage/compete/VS/view/"  >Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+     
+</body>
+</html>

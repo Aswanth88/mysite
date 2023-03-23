@@ -1,0 +1,140 @@
+body {
+    background-color: #1A1A1C;
+  }
+.nav{
+  position: absolute;
+  background-color: #66696A;
+  left:40px; 
+  top: 10px;
+  width: 95%;
+    height: 10%;
+    border-radius: 10px;
+  }
+
+p{
+  
+  position: absolute;
+  color:66696A;
+  left: 50px;
+  top: 90px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 5px;
+  font-size: 25px;
+  line-height: 20px;
+}
+
+p1{
+  position: absolute;
+  left: 37%;
+  top: 180px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 20px;
+  color: #958888;
+
+}
+  
+  .new1 {
+    position: absolute;
+    background-color: #66696A;
+    left: 40px; 
+    top: 230px;
+    width: 95%;
+    height: 55px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+
+  .new2 {
+    position: absolute;
+    background-color: #66696A;
+    left: 40px; 
+    top: 300px;
+    width: 95%;
+    height: 55px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+  .new3 {
+    position: absolute;
+    background-color: #66696A;
+    left: 40px; 
+    top: 370px;
+    width: 95%;
+    height: 55px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+
+  .new4 {
+    position: absolute;
+    background-color: #66696A;
+    left: 40px; 
+    top: 440px;
+    width: 95%;
+    height: 55px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+
+  .new5 {
+    position: absolute;
+    background-color: #66696A;
+    left: 40px; 
+    top: 510px;
+    width: 95%;
+    height: 55px;
+    color: #F9F4F4;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center ;
+    line-height: 50px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+
+  a{
+    position: absolute;
+    left: 668px;
+    top: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 5px;
+    color: #6235E1;
+    cursor: pointer;
+  }

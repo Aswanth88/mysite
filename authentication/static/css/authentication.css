@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.mb-3{
+    width: 95%;
+    left:40%;
+   
+
+
+
+}
+.card{
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+   width:45vh;
+    background-color: rgb(102, 100, 100);
+    margin: auto;
+    margin-top:25vh;
+    color:white
+    
+  
+}
+.btn{
+ background-color: black;
+ margin-left: 60%;
+}

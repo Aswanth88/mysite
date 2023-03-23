@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/upload.css' %}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    
+
+</head>
+
+
+<body>
+
+  <div class="card">
+  <div class="container">
+
+    <!--Simple Form-->
+    <h2 class="my-4">Add your new profile photo</h2>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+          <input type="file" name="upload" accept="image/*">
+          <br>
+          <button class="btn btn-secondary" type="submit">Submit</button>
+    </form>
+
+    <!--See Image Uploaded-->
+    <h2 class="my-4">Your profile photo</h2>
+    <div class="row">
+      {% if file_url %}
+      <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
+        <img src="{{ file_url }}" class="img-fluid">
+        <br>
+        <a class="btn btn-dark my-4" href="http://127.0.0.1:8000/mainpage/">Return to Homepage</a>
+      {% else %}
+      <p>No profile photo added.</p>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
+
+  
+</body>
+</html> 

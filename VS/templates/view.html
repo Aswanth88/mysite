@@ -1,0 +1,59 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/view.css' %}">
+</head>
+
+<body>
+  <a href="http://127.0.0.1:8000/mainpage/">Home</a>
+  <a class="card1" href="http://127.0.0.1:8000/mainpage/compete/VS/view1/">CLICK HERE <br> to take a look in Perspective 2</a>
+  <div class="card">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th >S/N</th>
+                        <th>File name</th>
+                        <th >File Link</th>
+                        <th ></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for d in data %}
+                      <tr>
+                        
+                        <th>{{forloop.counter}}</th>
+                        <th>{{d.file_name}}</th>
+                        <th><a  href="{{d.my_file.url}}">{{d.my_file}}</a></th>
+
+                        
+                       
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+
+
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

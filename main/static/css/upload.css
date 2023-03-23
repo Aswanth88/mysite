@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.mb-3{
+    width: 90%;
+   
+
+
+
+}
+.card{
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+   width:60vh;
+    background-color: rgb(102, 100, 100);
+    margin: auto;
+    margin-top:25vh;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+  
+}
+.btn{
+ background-color: black;
+ margin-left: 65%;
+ color: aliceblue;
+ height: 30px;
+}
+
+.rounded-circle {
+    margin-left: 36%;
+    width:23%;
+    height:45%;
+    border-radius: 25%;
+    margin-top: 4%;
+}

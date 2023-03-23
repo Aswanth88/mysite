@@ -1,0 +1,29 @@
+{% load static %}
+
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/registration.css' %}">
+ 
+</head>
+  
+<body>
+	
+
+	<div class="box">
+	    <h1>Register</h1>
+	    <hr>
+	    <br>
+		<form method="POST">
+			{% csrf_token %}
+			{{ form }}                    
+			<br>
+			<button class="btn btn-primary" type="submit">Register</button>
+		</form>
+		
+		<p>If you already have an account, <a href="http://127.0.0.1:8000/">login</a> instead.</p>
+	</div>
+
+</body>
+  
+ </html>
